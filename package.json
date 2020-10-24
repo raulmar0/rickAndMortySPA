@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open -mode development"
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
     "javascript"
@@ -17,7 +17,7 @@
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.5.0",
     "webpack": "^5.2.0",
-    "webpack-cli": "^4.1.0",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
   }
 }
