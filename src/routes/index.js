@@ -2,6 +2,9 @@ import Header from '../templates/Header'
 import Home from '../pages/Home'
 import Character from '../pages/Character'
 import Error404 from '../pages/Error404'
+import getHash from '../utils/getHash'
+import resolveRoutes from '../utils/resolveRoutes'
+
 // no es necesario poner la extensión porque se sobre entiende
 // js lo interpreta con babel y lo compila con webpack
 
